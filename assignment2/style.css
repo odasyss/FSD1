@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(70, 153, 180);
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    color:#ffffff;
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: hotpink;
+    text-indent: 2px;
+
+}
+ol{
+    text-align: justify;
+    color: indigo;
+}
+h1{
+    text-align: center;
+}
