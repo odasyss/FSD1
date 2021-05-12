@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-github-square{
+    background:rgb(243, 242, 241);
+    color: rgb(5, 5, 5);
+  }
+  
+p{
+    font-size: 19px;
+    line-height: 2;
+
+}
+/*util*/
+.container{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*header*/
+.site-header{
+    height: 300px;
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+
+}
+.site-header h1{
+    color: white;
+}
+.site-header p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.header-photo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    border: 8px solid white;
+    padding: 5px;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+}
+.site-header {
+    color: white;
+   background-image: url(../Business-HQ.jpg);
+   background-position: center center;
+   background-size: cover;
+}
+/*menu*/
+.menu{
+    background-color:rgba(10, 123, 175, 0.486);
+    text-align: center;
+    padding: 20px;
+}
+.menu a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+main{
+    background-color: rgb(238, 238, 238);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.footer-site{
+    position: center;
+    bottom: 0;
+    width: 100;
+}
+.education-item {
+    padding: 30px 0;
+    border-bottom: dashed black;
+}
+.education-item h3{
+    color: lightsteelblue;
+
+
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+ 
