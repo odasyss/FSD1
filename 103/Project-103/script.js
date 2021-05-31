@@ -1,38 +1,40 @@
-var characterPoints=100;
-var attackPoints=10;
-var enemyPoints=100;
-enemyDisplay();
+var characterPoints = 100;
+var enemyPoints = 100;
+var attackPoints = 10;
 display();
+enemyDisplay();
 
-function display(){
-    document.getElementById("character-points").innerHTML=`<b>Points:</b>
-    ${characterPoints}`;
-    document.getElementById('status').innerHTML=`<h2>Playing ...</h2>`;
+//toad functions
+function display() {
+    document.getElementById("character-points").innerHTML = `<b>Points: </b> ${characterPoints}`;
+    document.getElementById(`status`).innerHTML = '<h2>Playing...</h2>'
 }
 
-function attack(){
-    var newPoints= enemyPoints-attackPoints;
-    enemyPoints=newPoints;
+function attack() {
+    var newPoints = enemyPoints - attackPoints;
+    enemyPoints = newPoints;
     enemyDisplay();
-    // display();
-    if(characterPoints<=0){
-        document.getElementById(`attack-btn`).style.display="none";
-        document.getElementById(`enemy-attack-btn`).style.display= "none";
-        document.getElementById(`status`).innerHTML=`<h2>Game OVER ... TOAD IS WINNER</h2> <button onclick= "restart()">RESTART</button>`
+    if (enemyPoints <= 0) {
+        document.getElementById(`attack-btn`).style.display = "none";
+        document.getElementById(`enemy-attack-btn`).style.display = "none";
+        document.getElementById(`status`).innerHTML = '<h2>GAME OVER... TOAD WON</h2> <button onclick="restart();">Restart</button>'
     }
 }
-function restart(){
-    characterPoints=100;
-    enemyPoints= 100;
-    enemyDisplay();
+
+function restart() {
+    characterPoints = 100;
+    enemyPoints=100;
     display();
-    document.getElementById(`attack-btn`).style.display="block";
-    document.getElementById(`enemy-attack-btn`).style.display="block";
+    enemyDisplay();
+    document.getElementById(`attack-btn`).style.display = "block";
+    document.getElementById(`enemy-attack-btn`).style.display = "block";
 }
-//enemy function
-function enemyDisplay(){
+
+//link functions
+function enemyDisplay() {
     document.getElementById("enemy-points").innerHTML = `<b>Points: </b> ${enemyPoints}`;
 }
+
 function enemyAttack() {
     var newPoints = characterPoints - attackPoints;
     characterPoints = newPoints;
@@ -40,9 +42,10 @@ function enemyAttack() {
     if (characterPoints <= 0) {
         document.getElementById(`attack-btn`).style.display = "none";
         document.getElementById(`enemy-attack-btn`).style.display = "none";
-        document.getElementById(`status`).innerHTML = '<h2>GAME OVER... LINK Is THE WINNER!</h2> <button onclick="restart();">Restart</button>'
+        document.getElementById(`status`).innerHTML = '<h2>GAME OVER... LINK WON</h2> <button onclick="restart();">Restart</button>'
     }
 }
+
 function enemyRestart() {
     characterPoints = 100;
     display();
