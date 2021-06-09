@@ -1,21 +1,14 @@
 body{
-    background: #FF0099;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-attachment: fixed;
+  background: linear-gradient(to right, #46293b,#ca770a);
   background-size: cover;
   
   }
   h1{
-    background: #FF0099;
-  /*  padding: 10px 20px; */
     text-transform: uppercase;
     font-weight: normal;
-    color: linear-gradient(red,green,blue);
   }
   
-  .container
-    {
+  .container{
     width: 300px;
     margin: 0 auto;
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
@@ -25,34 +18,12 @@ body{
     margin-top: 10em;
     background: #f7f7f7;
     }
-    .completed
-    {
-      color: gray;
-      text-decoration: line-through;
-    }
-    input[type='text']
-    {
-      background-attachment: fixed;
-      opacity: 0.5%;
+   
+    input[type='text']{
       font-size: 18px;
-      background-color: #f7f7f7;
       width: 100%;
       padding: 13px 13px 13px 20px;
       box-sizing: border-box;
-      color: #2980b9;
-  
-    }
-  
-    input[type='text']:hover
-    {
-      color: #494949;
-    }
-  
-    input:focus
-    {
-      background: white;
-      border :none;
-      outline: none;
     }
     ul
     {
@@ -66,12 +37,8 @@ body{
       line-height: 30px;
   
     }
-    li:nth-child(2n){
-      background-color: #f7f7f7;
-    }
   
-    span
-  {
+    span{
     background-color: #e74c3c;
     height: 20px;
     text-align: center;
@@ -81,9 +48,8 @@ body{
     padding: 10px;
     transition: 0.2s linear;
     opacity: 0;
-    background-repeat: no-repeat;
   }
-  
+
   li:hover span{
   width: 25px;
   opacity: 1;
