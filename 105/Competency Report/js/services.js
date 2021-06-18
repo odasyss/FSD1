@@ -1,0 +1,29 @@
+$('#haircut-text').show();
+$('#nails-text').hide();
+$('#shower-text').hide();
+$('#fullservice-text').hide();
+
+$("#haircut-link").on("click",function(){
+    $('#haircut-text').show();
+    $('#nails-text').hide();
+    $('#shower-text').hide();
+    $('#fullservice-text').hide();
+});
+$("#nails-link").click(function(){
+    $('#haircut-text').hide();
+    $('#nails-text').show();
+    $('#shower-text').hide();
+    $('#fullservice-text').hide();
+});
+$("#shower-link").click(function(){
+    $('#haircut-text').hide();
+    $('#nails-text').hide();
+    $('#shower-text').show();
+    $('#fullservice-text').hide();
+});
+$("#fullservice-link").click(function(){
+    $('#haircut-text').hide();
+    $('#nails-text').hide();
+    $('#shower-text').hide();
+    $('#fullservice-text').show();
+});

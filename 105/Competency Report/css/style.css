@@ -1,0 +1,16 @@
+#information {
+    color: blue;
+    text-align: center;
+    font-weight: 300;
+    border:1px black solid;
+}
+#pets{
+    font-style: italic;
+    text-align: center;
+}
+h1{
+    font-variant: small-caps;
+}
+.unactive{
+    display:none;
+}
