@@ -7,7 +7,7 @@ function saveTodo() {
     if (!text) {
         alert("Information missing..")
         return; 
-    }
+        }
     count++;
     updateCounter();
     let update = "<div class='todo-item'>" + text + " <button id='del' class='btn btn-sm btn-danger'> Delete </button> </div>"
