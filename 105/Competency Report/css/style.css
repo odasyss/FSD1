@@ -1,8 +1,11 @@
+
 #information {
-    color: blue;
+    color: white;
+    background-color: lightslategray;
     text-align: center;
+    align-items: center;
     font-weight: 300;
-    border:1px black solid;
+    border:1px solid lightslategray;
 }
 #pets{
     font-style: italic;
@@ -10,7 +13,249 @@
 }
 h1{
     font-variant: small-caps;
+    background-color: rgb(13, 184, 196);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
 }
+h2{
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(13, 184, 196);
+}
+
+.wrap{
+    background-color: lightslategrey;
+}
+
 .unactive{
     display:none;
+}
+.need-groomed-title{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+.need-groomed{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.need-groomed p{
+    display: block;
+    text-align: center;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+.mobile-sub-wrap img{
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid rgb(13, 184, 196);
+
+}
+.mobile-wrap img{
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid rgb(13, 184, 196);
+}
+.mobile-wrap{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobile-sub-wrap{
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tear-stain{
+    margin-bottom: 2rem;
+    width: 100%;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tear-stain img{
+    width:130px;
+    height:130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.long-nails img{
+    width:130px;
+    height:130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tear-stain p{
+    line-height: 1.5;
+    text-align: center;
+    font-size: .92rem;
+    font-weight: 400;
+}
+.long-nails{
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.long-nails p{
+    line-height: 1.5;
+    text-align: center;
+    font-size: .92rem;
+    font-weight: 400;
+}
+.matted-fur{
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.matted-fur p{
+    line-height: 1.5;
+    text-align: center;
+    font-size: .92rem;
+    font-weight: 400;
+}
+.matted-fur img{
+    width:130px;
+    height:130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.need-groomed-wrap h3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+    font-size: 1.3rem;
+}
+.full{
+    width: 100%;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.full p{
+    margin: 0 0;
+    line-height: 1.5;
+    text-align: center;
+    font-size: .92rem;
+    font-weight: 400;
+}
+.full img{
+    width:130px;
+    height:130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(min-width: 768px){
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    height: 12rem;
+    /* padding-top: 3.5rem; */
+    color: white;
+    text-shadow: 2px 2px black;
+    width: 100%;
+}
+img{
+    width: 565px;
+    height: 200px;
+}
+.need-groomed-wrap{
+    display: flex;
+}
+.need-groomed p{
+    font-size: 1.1rem;
+    margin-bottom: -2rem;
+}
+.need-groomed-wrap h3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+.need-groomed-wrap img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border: 5px solid rgb(13, 184, 196);
+    margin-left: auto;
+    margin-right: auto;
+}
+.tear-stain{
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.tear-stain p{
+    margin: 0 0;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.long-nails{
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.long-nails p{
+    margin: 0 0;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.matted-fur{
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.matted-fur p{
+    margin: 0 0;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.full{
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.full p{
+    margin: 0 0;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+}
+.services-title{
+    text-align: center;
+    width: 100%;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    background-color: rgb(13, 184, 196);
+    padding: 2rem 0;
+    color:white;
+    text-shadow: 1px 2px black;
 }

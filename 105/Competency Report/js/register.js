@@ -1,27 +1,12 @@
 const salon = {
   name: 'The Fashion Pet',
   phone: '555-555-5555',
-  address: {
-    street: `University`,
-    number: `543-k`
-  },
-  hours: {
-    open: '9am',
-    close: `5pm`
-  },
+  address: {street: `University`,number: `543-k`},
+  hours: { open: '9am',close: `5pm`},
   pets: []
 }
-var {
-  name,
-  phone,
-  address: {
-    street,
-    number
-  },
-  hours: {
-    open,
-    close
-  }
+var {name,phone,address: {street,number},
+  hours: {open,close}
 } = salon;
 
 function displayInfo() {
@@ -64,10 +49,6 @@ function register() {
     $("#alert-box").removeClass("hidden");
     $("#alert-box").addClass("alert-danger");
     $("#alert-box").text("Add the required information");
-    setTimeout(function(){
-        $("#alert-box").addClass("hidden");
-        $("#alert-box").addClass("alert-danger");
-    },2000);
   } else {
     //console.log(thePet);
     salon.pets.push(thePet);
@@ -75,10 +56,7 @@ function register() {
     displayTable(thePet);
     $("#alert-box").removeClass("hidden");
     $("#alert-box").text("The register was successful");
-    setTimeout(function(){
-        $("#alert-box").addClass("hidden");
-        $("#alertbox").addClass("alert-success");
-    },2000);
+   ;
 }
 }
 
@@ -105,7 +83,7 @@ function displayCards(aPet) {
   }
 
   var div=document.getElementById('types');
-  div.innerHTML=`<p>🐕=1 🐈=1 🐦=1 👽=1  </p>`
+  div.innerHTML=`<p>🐕=2 🐈=0 🐦=0 👽=1  </p>`
 
   tmp = `<div id="${aPet.id}" class="pet">
           <h3 class="pet-name"> Name: ${aPet.name} <button onclick="deletePet(${aPet.id})"> 🗑️</button> </h3>
@@ -160,7 +138,7 @@ function deletePet(petId){
   salon.pets.splice(indexDelete,1);
   //remove ppet from array
   //remove from htmls
-  //card.remove();
+  card.remove();
   $(card).remove();
   
   profitCalculation();
@@ -176,7 +154,6 @@ function displayTable(aPet){
   } else if (aPet.service == "full") {
     aPet.price = 50;
   }
-
   var icon = "";
   if (aPet.type == "dog") {
     icon = "🐕";
@@ -216,7 +193,6 @@ function searchPet(){
   });
 }
 
-
 function init() {
   console.log("init");
   //push the pets into the array
@@ -237,5 +213,4 @@ function init() {
   });
   $('#search').on('keyup',searchPet);
 }
-
 window.onload = init;

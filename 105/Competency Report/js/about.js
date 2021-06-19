@@ -11,7 +11,7 @@ var txtName = document.getElementById('userName');
 var txtPhone = document.getElementById('userPhone');
 var txtEmail = document.getElementById('userEmail');
 var txtMessage = document.getElementById('userMessage');
-
+// show mess
 $("#message-btn").on("click",function(){
     var theMessage = new Message(txtName.value,txtPhone.value,txtEmail.value,txtMessage.value);
     console.log(theMessage);

@@ -1,3 +1,23 @@
+body{
+    background-color: lightslategray;
+    background: lightslategray;
+    color: lightslategrey;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: lightslategray;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    text-align: center;
+    padding: 6.5rem 5rem;
+}
+
 #pets{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -6,7 +26,7 @@
 }
 .pet{
     border:1px solid black;
-    background:#f1f1f1;
+    background:lightslategray;
     padding:1rem;
 }
 #pet-button{
@@ -26,3 +46,40 @@
     height: 300px; 
     background-color: gray;
 }
+.nav{
+    background-color: lightslategray;
+    height: 4.5rem;
+    align-items: center;
+    text-align: center;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-item:hover{
+    background-color: rgb(13, 184, 196);
+    align-items: center;
+    text-align: center;
+    padding: .7rem 0;
+    height: 100%;
+}
+.sub-nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: rgb(13, 184, 196);
+
+    color:black;
+    height: 3rem;
+}
+.sub-nav a:hover{
+    background-color: white;
+    height: 100%;
+}
+/* .display-1{
+    background-color: lightslategrey;
+} */
