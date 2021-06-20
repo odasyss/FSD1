@@ -18,11 +18,11 @@ function saveTask(){
     console.log("SAVING....");
     // read Value
     let title = $("#txtTitle").val();
-    let description = $("#txtDescription");
-    let category = $("#selCategory");
-    let location = $("#txtLocation");
-    let dueDate = $("#selDueDate");
-    let color = $("#selColor");
+    let description = $("#txtDescription").val();
+    let category = $("#selCategory").val();
+    let location = $("#txtLocation").val();
+    let dueDate = $("#selDueDate").val();
+    let color = $("#selColor").val();
 
     let task = new Task(title, important, category, description, location, dueDate, color);
     console.log(task);
