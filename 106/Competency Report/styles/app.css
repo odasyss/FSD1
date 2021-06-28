@@ -1,0 +1,119 @@
+.container-fluid{
+    display: flex;
+    background-color: rgb(237, 177, 245);
+    background-image: linear-gradient(to bottom right, rgb(237, 177, 245), rgb(254, 247, 255));
+}
+section{
+    flex: 1;
+} 
+#control{
+    text-align: center;
+    background-color: rgb(237, 177, 245);
+    background-image: linear-gradient(to bottom right, rgb(237, 177, 245), rgb(254, 247, 255));
+    transition: ease-out 1s linear;;
+    border: 3px solid black;
+    font-weight: 700;
+}
+#btnSave{
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+h1 {
+    /* margin: 0; */
+    background:rgb(237, 177, 245);
+    background-image: linear-gradient(to bottom right, rgb(237, 177, 245), rgb(254, 247, 255));
+    color: black;
+    height: 5rem;
+    text-align: center;
+    padding: 1rem;
+}
+h3 {
+    color: black;
+    display:table-row;
+    /* border-bottom: 5px solid #fffefe; */
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-right: 8px;
+    padding-top: 17px;
+}
+#doneList h3{
+    color: rgb(19, 10, 10);
+    display: run-in;
+    border-bottom: 5px solid #fafafa;
+    width: 100%;
+    /* float: left; */
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 177, 245);
+    background-image: linear-gradient(to bottom right, rgb(237, 177, 245), rgb(254, 247, 255));
+}
+#list{
+    flex: 4;
+    /* align-items: center; */
+    /* text-align: ; */
+}
+
+#capture-form{
+    flex: 2;
+    margin-top: 10rem;
+    border-radius: 1rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 15px;
+    
+}
+#iImportant{
+    font-size: 32px;
+    cursor: pointer;
+    
+}
+#pendingList{
+    margin: 2rem;
+    display: flex;
+    text-align: center;
+    flex: 3;
+    
+}
+.task:hover {
+    background-color: #AD310B;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.task{
+    display: flex;
+    background-color: rgb(240, 219, 243);
+    /* background-image: linear-gradient(to bottom right, rgb(237, 177, 245), rgb(254, 247, 255)); */
+    /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); */
+    border: 3px solid rgb(241, 237, 237);
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.task .important{
+    flex:  1;
+}
+.task .description{
+    flex: 3;
+}
+.task .due-date{
+    flex: 2;
+}
+.task .location{
+    flex: 2;
+}
+/*  */
