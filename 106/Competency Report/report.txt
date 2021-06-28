@@ -1,0 +1,14 @@
+
+Please deliver a web application that allows the user to register Tasks, with the following functionality:
+
+- It uses jQuery for event handling
+- Send the data on an AJAX request to the API to be persisted there.
+- Retrieves the list of tasks using an AJAX request and shows the tasks that belong to the user.
+- Displays all the information about the task
+- The system should clear the capture form after successfully creating a task.
+- Allows the user to mark tasks as Done.
+- Allows the user to delete tasks.
+
+ 
+
+Please work on the overall presentation (look and feel) of the project.
