@@ -1,0 +1,15 @@
+
+.navbar-page{
+    border: 1px solid gray;
+}
+
+.navbar-page h6{
+    color: rgb(148, 224, 77);
+    font-size: 16px;
+}
+footer{
+    color: red;
+    font-size: medium;
+    font-weight: 600;
+    background-color: black;
+}
