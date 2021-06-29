@@ -4,7 +4,7 @@ class Footer extends Component {
     state = {  }
     render() { 
         return <div> 
-            <h6>I AM HERE!!</h6>
+            {/* <h6>I AM HERE!!</h6> */}
             </div>;
     }
 }

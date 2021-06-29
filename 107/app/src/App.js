@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <NavBar> </NavBar>
-      <h1> Hello Welcome to my ONline</h1>
-      <button className="btn btn-primary">Click Me!</button>
+      {/* <h1> Hello Welcome to my ONline</h1> */}
+      {/* <button className="btn btn-primary">Click Me!</button> */}
       <Catalog></Catalog>
       {/* <header className="App-header"> */}
       {/* <img src={logo} className="App-logo" alt="logo" />

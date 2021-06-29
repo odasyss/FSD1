@@ -1,6 +1,8 @@
 .value{
-    color: hotpink;
+    color: rgb(231, 228, 10);
+    padding: 4px 4px 2px;
     font-weight: 600;
+    font-size: large;
 }
 .quantity-picker .btn{
     border-radius: 35px;
@@ -12,8 +14,11 @@
 }
 
 .quantity-picker .btn-minus {
-    padding: 3px 10px;
+    padding: 3px 7px;
+    color: rgb(231, 228, 10);
+    background-color: rgb(231, 228, 10);
 }
+
 
 .quantity-picker .btn:hover{
     border-color: rgb(175, 29, 29);

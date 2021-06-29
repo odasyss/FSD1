@@ -1,10 +1,13 @@
 
 .navbar-page{
     border: 1px solid gray;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
 }
 
 .navbar-page h6{
-    color: rgb(148, 224, 77);
+    color: rgb(231, 228, 10);
     font-size: 16px;
 }
 footer{

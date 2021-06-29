@@ -12,7 +12,7 @@ class Catalog extends Component {
         return (
             <div className="catalog-page">
 
-                <h3>Our Amazing catalog with {this.state.items.length} products</h3>
+                <h3>Our Amazing catalog with {this.state.items.length} Code Snippets</h3>
                 {this.state.items.map((prod) => (
                 <Item key ={prod._id } prod={prod}></Item>
                 ))}
