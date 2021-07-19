@@ -1,0 +1,23 @@
+h2{
+    font-weight: 700;
+}
+
+.admin-page{
+    height: auto;
+}
+.admin-page .capture-form{
+    width: 360px;
+    padding: 20px 5px;
+    
+}
+.admin-page .my-control label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 7px;
+}
+
+.admin-page .my-control input{
+    display: inline-block;
+    width: 200px;
+}
