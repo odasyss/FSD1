@@ -1,0 +1,25 @@
+.value{
+    color: rgb(231, 228, 10);
+    padding: 4px 4px 2px;
+    font-weight: 600;
+    font-size: large;
+}
+.quantity-picker .btn{
+    border-radius: 35px;
+    padding: 3px 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border:1px solid black;
+
+}
+
+.quantity-picker .btn-minus {
+    padding: 3px 7px;
+    color: rgb(231, 228, 10);
+    background-color: rgb(231, 228, 10);
+}
+
+
+.quantity-picker .btn:hover{
+    border-color: rgb(175, 29, 29);
+}
