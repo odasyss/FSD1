@@ -1,0 +1,10 @@
+txt]
+The project should have the following endpoints using mongoDb:
+
+- GET /api/catalog
+
+- POST /api/catalog
+
+- GET /api/catalog/category
+
+- GET /api/categories
